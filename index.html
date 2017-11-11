@@ -16,13 +16,46 @@
 <table width= "875" align= "center" cellpadding="0" cellspacing="0">
 <tr>
 <td align= "center">
-  
+
   <font size="+2"><a href= "about.html">About</a> |<a href= "category/category.html">Schools</a> | <a href = "catelog.html"> Contact</a></font>
 </td>
 </tr>
 </table>
 <!-- href="catelog.html">City College</a>
 </p> -->
-<pre> <h4> anthony                Fabian </pre>
+<!-- Button to open the modal login form -->
+<head>
+<body background ="brown.jpg"
+<font size= "+5"<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background= "brown.jpg">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="password.html">password?</a></span>
+    </div>
+  </form>
+</div>
+</body>
 </body>
 </html>

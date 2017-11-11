@@ -37,8 +37,9 @@ table{
 
 
 h4 {
-  display:inline;
-   float:left;
+  font family:bold;
+  text-align:center;
+  font size: 3.0rem;
 }
 h5 {
   display:inline;
