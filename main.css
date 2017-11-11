@@ -24,10 +24,51 @@ p {
 }
 
 h3 {
-  font-family: cursive;s
-  text-align: center;
+  font-family: cursive;
+  text-align:center;
   font-size: 3.3rem;
+  color:blue;
 }
+<style>
+ h3 {
+color: black;
+}
+span{
+color: red
+}
+</style>
+
+<h3><span>First </span>word</h1>
+h4 {
+  display:inline;
+   float:left;
+}
+h5 {
+  display:inline;
+   float:right;
+}
+
+
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.9em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: <a href="brown.jpg"/a>;
+}
+
+
+
 
 div {
   padding-right: 30px;
