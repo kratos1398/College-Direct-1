@@ -27,18 +27,15 @@ h3 {
   font-family: cursive;
   text-align:center;
   font-size: 3.3rem;
-  color:blue;
-}
-<style>
- h3 {
-color: black;
-}
-span{
-color: red
-}
-</style>
 
-<h3><span>First </span>word</h1>
+
+}
+
+table{
+  font size: 2.2rem;
+}
+
+
 h4 {
   display:inline;
    float:left;
