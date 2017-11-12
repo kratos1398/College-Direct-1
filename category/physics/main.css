@@ -24,7 +24,7 @@ p {
 }
 
 h3 {
-  font-family: cursive;
+  font-family: elementary;
   text-align:center;
   font-size: 3.3rem;
 
@@ -37,12 +37,13 @@ table{
 
 
 h4 {
-  display:inline;
-   float:left;
+  font family:bold;
+  text-align:center;
+  font size: 3.0rem;
 }
 h5 {
   display:inline;
-   float:right;
+   float:center;
 }
 
 
