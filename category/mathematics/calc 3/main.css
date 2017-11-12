@@ -1,4 +1,4 @@
-html body {
+html, body {
   <!-font-family: !-sans-serif;->
   margin: 10%;
   width: 100%;
@@ -26,12 +26,8 @@ p {
 h3 {
   font-family: elementary;
   text-align:center;
-  font-size: 3.3em;
+  font-size: 3.3rem;
 
-
-}
-
-span.something {
 
 }
 
